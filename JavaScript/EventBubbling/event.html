@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Hey I am Box</div>
+        <button id="btn">Change Content</button>
+    </div>
+</body>
+<script>
+    let button = document.getElementById("btn");
+    // button.addEventListener('click', () => {
+    //     let data=document.querySelector(".box");
+    //     data.innerHTML="I am Happy"
+    //     // document.querySelector('.box').innerHTML = "I am very Happy"
+    // })
+
+    // button.addEventListener('dblclick', () => {
+    //     let data = document.querySelector(".box");
+    //     data.innerHTML = "I am Happy"
+    //     // document.querySelector('.box').innerHTML = "I am very Happy"
+    // })
+
+    // button.addEventListener('contextMenu', () => {
+    //     alert('Hii , I am very Happy')
+    // })
+
+    document.addEventListener('keydown',(e)=>{
+        console.log(e.key,e.keyCode)
+    })
+</script>
+
+</html>

@@ -1,6 +1,8 @@
 let number = 7;
 const myfun=(number)=>{
+    // make an array 
     let arr=Array.from(Array(number+1).keys())
+    console.log(arr)
     let c=arr.slice(1,).reduce((a,b)=>{return a*b})
     return c;
 }
