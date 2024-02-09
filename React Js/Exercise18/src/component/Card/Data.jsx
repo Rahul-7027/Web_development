@@ -16,8 +16,8 @@ const Data = () => {
             {
                 data.map((item, index) => {
                     return (
-                        <div className="card-group" key={index}>
-                            <div className="card">
+                        <div className="card-group" key={index} >
+                            <div className="card" style={{ border: "2px solid black", margin: "10px" }}>
                                 <div className="card-body">
                                     <h5 className="card-title">{item.userId}</h5>
                                     <h5 className="card-title">{item.title}</h5>
@@ -25,14 +25,14 @@ const Data = () => {
                                     {console.log(11111, item.completed)}
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card" style={{ border: "2px solid black", margin: "10px" }}>
                                 <div className="card-body">
                                     <h5 className="card-title">{item.userId}</h5>
                                     <h5 className="card-title">{item.title}</h5>
                                     <h5 className="card-title">{item.completed}</h5>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card" style={{ border: "2px solid black", margin: "10px" }}>
                                 <div className="card-body">
                                     <h5 className="card-title">{item.userId}</h5>
                                     <h5 className="card-title">{item.title}</h5>
