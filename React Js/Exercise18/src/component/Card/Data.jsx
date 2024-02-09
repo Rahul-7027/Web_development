@@ -8,6 +8,8 @@ const Data = () => {
         setdata(newData)
     }
     console.log(222, data)
+
+    useEffect Used for first (initial Rendering) our web page
     useEffect(() => {
         mydata()
     }, [])
