@@ -23,7 +23,7 @@ const Nav = ({Home,About,Contact,Title,mode,toggleMode}) => {
                             </li>
                         </ul>
                         <form className="d-flex">
-                            {mode==="light"?<img src={Night} onClick={toggleMode} style={{height:'38px'}} alt="" />:<img src={Day} onClick={toggleMode} style={{height:'38px'}} alt="" />}
+                            {mode==="light"?<img src={Night} onClick={toggleMode} title={"Night Active"} style={{height:'38px'}} alt="" />:<img src={Day} title={"Light Mode"} onClick={toggleMode} style={{height:'38px'}} alt="" />}
                             
                         </form>
                     </div>
