@@ -23,7 +23,13 @@ const Nav = ({ Home, About, Title, mode, toggleMode }) => {
                         </ul>
                         <form className="d-flex">
                             {mode === "light" ? <img src={Night} onClick={toggleMode} title={"Night Active"} style={{ height: '38px' }} alt="" /> : <img src={Day} title={"Light Mode"} onClick={toggleMode} style={{ height: '38px', backgroundColor: "white", borderRadius: "14px" }} alt="" />}
-
+                            <button type="button" class="btn btn-primary mx-2"></button><br />
+                            <button type="button" class="btn btn-secondary mx-2"></button><br />
+                            <button type="button" class="btn btn-success mx-2"></button><br />
+                            <button type="button" class="btn btn-danger mx-2"></button><br />
+                            <button type="button" class="btn btn-warning mx-2"></button><br />
+                            <button type="button" class="btn btn-info mx-2"></button><br />
+                            <button type="button" class="btn btn-dark mx-2"></button><br />
                         </form>
                     </div>
                 </div>

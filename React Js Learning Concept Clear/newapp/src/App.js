@@ -24,6 +24,15 @@ function App() {
       setMode("dark")
       document.body.style.backgroundColor = '#042743';
       showAlert("Dark mode has been changed", "success")
+
+      // dynamically change the title 
+      // document.title="Textutils"
+      // setInterval(() => {
+      //   document.title="Textutils are good website"
+      // }, 1500);
+      // setInterval(() => {
+      //   document.title="Textutils are capture"
+      // }, 2000);
     }
     else {
       setMode("light")
