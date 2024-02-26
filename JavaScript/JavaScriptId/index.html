@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Selecting by Ids, Classes, and More</title>
+</head>
+<style>
+    .box {
+        height: 45px;
+        width: 56px;
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div id="box3" class="box">Box3</div>
+        <div class="box">Box4</div>
+        <div class="box">Box5</div>
+    </div>
+</body>
+<script>
+    console.log("Hello World")
+    // let box = document.getElementsByClassName('box');
+    // console.log(box)
+    // box[2].style.backgroundColor = "red";
+
+    // document.getElementById('box3').style.backgroundColor="yellow"
+    // document.querySelector(".box").style.backgroundColor="green"
+    // console.log(document.querySelectorAll(".box"));
+
+    // document.querySelectorAll(".box").forEach(e => {
+    //    console.log(e)
+
+    //    e.style.backgroundColor="yellow"
+    // })
+
+    // console.log(document.getElementsByTagName("div"));
+
+    // Matchs return true and Flase Value
+    // let newdata=document.getElementsByTagName('div');
+    // console.log(newdata)
+    // let result=newdata[3].matches(".box3")
+    // console.log(result)
+
+    // Closest 
+    // let newdata=document.getElementsByTagName('div');
+    // console.log(newdata)
+    // let result=newdata[2].closest(".container")
+    // console.log(result)
+
+    // contains
+    document.querySelector
+    console.log(document.querySelector('.container'))
+    let newdata=document.querySelector('.container')
+    let result=newdata[2].contains();
+    console.log(result)
+</script>
+
+</html>

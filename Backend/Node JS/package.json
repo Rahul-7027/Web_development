@@ -1,0 +1,17 @@
+{
+  "name": "myfirstbackendapp",
+  "version": "1.0.0",
+  "description": "First backend App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "material": "^0.7.9",
+    "slugify": "^1.6.6",
+    "ui": "^0.2.4"
+  }
+}

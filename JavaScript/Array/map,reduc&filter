@@ -1,0 +1,38 @@
+let arr = [1, 21, 32, 43, 54, 6];
+// let newArray=[];
+// for (let index = 0; index < arr.length; index++) {
+//     const element = arr[index];
+//     newArray.push(element**2)
+// }
+// console.log(newArray)
+
+
+// Map function
+// let newArray=arr.map((element)=>{
+//     return element**2;
+// })
+// console.log(newArray)
+
+// Filter function
+// const greaterNumber = (e) => {
+//     return e > 7 ? true : false
+// }
+
+// const result = arr.filter(greaterNumber)
+// console.log(result)
+
+
+// Reduce function
+// let arr1=[1,2,3,4,5,6];
+// const myfun=(a,b)=>{
+//     return a+b;
+// }
+
+// const result=arr1.reduce(myfun);
+// console.log(result)
+
+// Array.Form function 
+
+let name=("RAHUL BHATI");
+let result=Array.from(name);
+console.log(result)

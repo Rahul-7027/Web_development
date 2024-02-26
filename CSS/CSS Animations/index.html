@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            background-color: rgb(9, 106, 106);
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box {
+            width: 34px;
+            height: 45px;
+            /* animation-name: rahulKaAnimation;
+            animation-duration: 3s; */
+            background-color: aqua;
+            /* animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.98, -0.03, 1, 1);
+            animation-delay: 1s; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-play-state: running; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: rahulKaAnimation 2s ease-in-out 3s 1, 
+                       rahul 3s ease-in-out 3s 1;
+        }
+
+        @keyframes rahulKaAnimation {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+                transform: translateX(1000px);
+            }
+        }
+
+        @keyframes rahul {
+            0% {
+                transform: rotate(100deg);
+            }
+
+            20% {
+                transform: rotate(200deg);
+            }
+
+            50% {
+                transform: rotate(220deg);
+            }
+
+            80% {
+                transform: rotate(300deg);
+            }
+
+            100% {
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="container">
+    <div class="box">
+        Box
+    </div>
+</div>
+
+</html>

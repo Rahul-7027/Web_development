@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        Lorem, ipsum.
+    </div>
+</body>
+<script>
+
+    function getRandomColor() {
+        return '#' + Math.floor(Math.random() * 16777215).toString(16);
+    }
+    setInterval(() => {
+        document.body.style.backgroundColor = getRandomColor()
+    }, 1000);
+    clearInterval(1);
+</script>
+
+</html>
