@@ -10,8 +10,8 @@ function App() {
   } = useForm()
   const onSubmit = async (data) => {
     await delay(2)
-    let fetch=await fetch("http://localhost:3000/")
-    let newData=fetch.json();
+    let fetch = await fetch("http://localhost:3000/")
+    let newData = fetch.json();
     console.log(newData)
   }
 
